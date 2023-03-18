@@ -5,5 +5,5 @@ Based on old check_speedtest_cli.sh by John Witts : https://github.com/jonwitts/
 
 # Prerequisites
 The following packages must be installed on your system:
-- speedtest by Ookla https://www.speedtest.net/apps/cli
+- speedtest cli by Ookla https://www.speedtest.net/apps/cli
 - bc
