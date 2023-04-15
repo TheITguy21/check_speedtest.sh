@@ -20,3 +20,4 @@ I am not affiliated with Ookla nor my work is sponsored by Ookla in ANY ways.
 
 Also, I assume you take your own responsability with the dependencies installation on your system. 
 I won't provide any support for this dependencies or any side effect their installation may have on your system.
+You're supposed to know what you're doing ! 🙂
