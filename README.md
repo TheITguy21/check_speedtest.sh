@@ -10,7 +10,7 @@ The following packages must be installed on your system for the script to work:
 - bc
 - speedtest cli by Ookla https://www.speedtest.net/apps/cli
 
-  ⚠ Before using check_speedtest.sh, you should first read Ookla's "EULA", "Terms of Use" and "Privacy Policy", and make sure you're ok with it
+  ⚠ Before installing "speedtest", you should first read Ookla's "EULA", "Terms of Use" and "Privacy Policy", and make sure you're ok with it
   - Ookla EULA: https://www.speedtest.net/about/eula
   - Ookla Terms of Use: https://www.speedtest.net/about/terms
   - Ookla Privacy Policy: https://www.speedtest.net/about/privacy
