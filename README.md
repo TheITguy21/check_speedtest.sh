@@ -8,4 +8,6 @@ Please report any issue here : https://github.com/TheITguy21/check_speedtest.sh/
 # Prerequisites
 The following packages must be installed on your system:
 - speedtest cli by Ookla https://www.speedtest.net/apps/cli
+⚠ Make sure you agree with Ookla EULA if you want to use their speedtest CLI package :
+https://www.speedtest.net/about/eula
 - bc
