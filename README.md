@@ -14,6 +14,16 @@ The following packages must be installed on your system for the script to work:
   - Ookla EULA: https://www.speedtest.net/about/eula
   - Ookla Terms of Use: https://www.speedtest.net/about/terms
   - Ookla Privacy Policy: https://www.speedtest.net/about/privacy
+  
+  Also, you should be aware the installation of speedtest by Ookla through their script "script.deb.sh" does the following (amongst others):
+  - runs the "apt-get update" command
+  - installs the gnupg package
+  - installs the debian-archive-keyring package
+  - installs the apt-trasport-https
+  - creates a debian repository configuration file in /etc/apt/sources.list.d/ookla_speedtest-cli
+  - creates a GPG keyring and imports keys from https://packagecloud.io/ookla/speedtest-cli/gpgkey
+  
+  🙏🏻 Many thanks to RocketSloooth aka Diegone for raising this in the Issues section (more details here: https://github.com/TheITguy21/check_speedtest.sh/issues/2) 
 
 # Disclaimer
 I am not affiliated with Ookla nor my work is sponsored by Ookla in ANY ways.
