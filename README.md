@@ -6,7 +6,7 @@ Based on old check_speedtest-cli.sh by John Witts : https://github.com/jonwitts/
 Please report any issue here : https://github.com/TheITguy21/check_speedtest.sh/issues
 
 # Prerequisites
-The following packages must be installed on your system for the script to work:
+The following packages must be present on your system for the script to work:
 - bc
 - speedtest cli by Ookla https://www.speedtest.net/apps/cli
 
