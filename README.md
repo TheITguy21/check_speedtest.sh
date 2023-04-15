@@ -17,9 +17,9 @@ The following packages must be present on your system for the script to work:
   
   Also, you should be aware the installation of speedtest by Ookla through their script "script.deb.sh" does the following (amongst others):
   - runs the "apt-get update" command
-  - installs the gnupg package
-  - installs the debian-archive-keyring package
-  - installs the apt-trasport-https
+  - installs the "gnupg" package
+  - installs the "debian-archive-keyring" package
+  - installs the "apt-trasport-https" package
   - creates a debian repository configuration file in /etc/apt/sources.list.d/ookla_speedtest-cli
   - creates a GPG keyring and imports keys from https://packagecloud.io/ookla/speedtest-cli/gpgkey
   
