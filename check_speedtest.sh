@@ -307,14 +307,14 @@ if [ $serverID ]; then
 	if [ "$debug" == "TRUE" ]; then
 		echo "Target server ID defined to '$serverID'"
 	fi
-	command=$($STb --accept-gdpr --accept-license --progress=no --server-id=$serverID)
+	command=$($STb --simple --server-id=$serverID)
 elif [ $host ]; then
 	if [ "$debug" == "TRUE" ]; then
 		echo "Target server FQDN defined to '$host'"
 	fi
-	command=$($STb --accept-gdpr --accept-license --progress=no --host=$host)
+	command=$($STb --simple --host=$host)
 else
-	command=$($STb --accept-gdpr --accept-license --progress=no)
+	command=$($STb --simple)
 fi
 
 
