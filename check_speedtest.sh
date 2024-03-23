@@ -56,12 +56,14 @@ usage()
 		Run "speedtest --servers" to list your nearest servers
 	    -s	Use a specific Server ID integer to use speedtest test against
 	    -o	Use a specific Server FQDN to use speedtest test against
-	
+
 	-p	Output Performance Data
-        -m      Download Maximum Level - *Required if you request perfdata* - integer or floating point
-                Provide the maximum possible download level in Mbit/s for your connection
-        -M      Upload Maximum Level - *Required if you request perfdata* - integer or floating point
-                Provide the maximum possible upload level in Mbit/s for your connection
+	    -m	Download Maximum Level - *Required if you request perfdata* - integer or floating point
+	    	Provide the maximum possible download level in Mbit/s for your connection
+	    -M	Upload Maximum Level - *Required if you request perfdata* - integer or floating point
+	    	Provide the maximum possible upload level in Mbit/s for your connection
+	-v	Output plugin version
+	-v	Output plugin version
 	-v	Output plugin version
 	-V	Output debug info for testing
 
